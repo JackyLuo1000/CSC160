@@ -1,0 +1,8 @@
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Extension Methods\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.dll.config
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Extension Methods\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.dll
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Extension Methods\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.pdb
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Extension Methods\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.csproj.CoreCompileInputs.cache
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Extension Methods\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.dll
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Extension Methods\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.pdb
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Extension Methods\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.xml
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Extension Methods\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.csprojAssemblyReference.cache

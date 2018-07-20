@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExtensionMethods</name>
+    </assembly>
+    <members>
+        <member name="M:ExtMethods.Extensions.IsEven(System.Int32)">
+            <summary>
+            An extension method for ints to check whether it is even
+            </summary>
+            <param name="num">Extends/Targets the int type to check if the int is even</param>
+            <returns>A bool value whether the number is even</returns>
+        </member>
+        <member name="M:ExtMethods.Extensions.IsPrime(System.Int32)">
+            <summary>
+            An extension method for ints to check whether it is prime
+            </summary>
+            <param name="num">Extends/Targets the int type, to check if the int is prime</param>
+            <returns>Returns a bool as to whether the int is prime</returns>
+        </member>
+        <member name="M:ExtMethods.Extensions.Print(System.Collections.IEnumerable)">
+            <summary>
+            An extension method for IEnumerable to print out all of it's content with a ", " appended to split each element.
+            </summary>
+            <param name="collect">Extends/Targets IEnumerable to print out</param>
+        </member>
+        <member name="M:ExtMethods.Extensions.ToPower(System.Int32,System.Int32)">
+            <summary>
+            An extension for int to raise the base number to the power of exponent
+            </summary>
+            <param name="num">Extends/Targets int to raise this base</param>
+            <param name="exponent">The exponent to raise the base to this power</param>
+            <returns>Returns a long from num raised to exponent</returns>
+        </member>
+        <member name="M:ExtMethods.Extensions.IsPalindrome(System.String)">
+            <summary>
+            An extension to string to check if the string is a palindrome.
+            </summary>
+            <param name="phrase">Extends/Targets string that you want to check if palindrome</param>
+            <returns>Returns a bool as to whether the string is a palindrome</returns>
+        </member>
+        <member name="M:ExtMethods.Extensions.Shift(System.String,System.Int32)">
+            <summary>
+            An extension to string to shift each letter value by the shiftValue
+            </summary>
+            <param name="phrase">Extends/Target string to shift its values</param>
+            <param name="shiftValue">The value to shift each character</param>
+            <returns>Returns the string with the shifted letters</returns>
+        </member>
+    </members>
+</doc>

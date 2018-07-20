@@ -1,0 +1,6 @@
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Console IO Library\ConsoleIOLibrary\ConsoleIOLibrary\obj\Debug\ConsoleIOLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Console IO Library\ConsoleIOLibrary\ConsoleIOLibrary\bin\Debug\LuoJ_CIO.dll.config
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Console IO Library\ConsoleIOLibrary\ConsoleIOLibrary\bin\Debug\LuoJ_CIO.dll
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Console IO Library\ConsoleIOLibrary\ConsoleIOLibrary\bin\Debug\LuoJ_CIO.pdb
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Console IO Library\ConsoleIOLibrary\ConsoleIOLibrary\obj\Debug\LuoJ_CIO.dll
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Console IO Library\ConsoleIOLibrary\ConsoleIOLibrary\obj\Debug\LuoJ_CIO.pdb

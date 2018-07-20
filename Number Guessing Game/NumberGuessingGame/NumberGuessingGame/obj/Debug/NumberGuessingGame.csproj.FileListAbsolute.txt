@@ -1,0 +1,7 @@
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Number Guessing Game\NumberGuessingGame\NumberGuessingGame\bin\Debug\NumberGuessingGame.exe.config
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Number Guessing Game\NumberGuessingGame\NumberGuessingGame\bin\Debug\NumberGuessingGame.exe
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Number Guessing Game\NumberGuessingGame\NumberGuessingGame\bin\Debug\NumberGuessingGame.pdb
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Number Guessing Game\NumberGuessingGame\NumberGuessingGame\obj\Debug\NumberGuessingGame.csprojAssemblyReference.cache
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Number Guessing Game\NumberGuessingGame\NumberGuessingGame\obj\Debug\NumberGuessingGame.csproj.CoreCompileInputs.cache
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Number Guessing Game\NumberGuessingGame\NumberGuessingGame\obj\Debug\NumberGuessingGame.exe
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Number Guessing Game\NumberGuessingGame\NumberGuessingGame\obj\Debug\NumberGuessingGame.pdb

@@ -1,0 +1,6 @@
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Demo\ScratchConsole\ScratchConsole\bin\Release\ScratchConsole.exe.config
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Demo\ScratchConsole\ScratchConsole\bin\Release\ScratchConsole.exe
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Demo\ScratchConsole\ScratchConsole\bin\Release\ScratchConsole.pdb
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Demo\ScratchConsole\ScratchConsole\obj\Release\ScratchConsole.csproj.CoreCompileInputs.cache
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Demo\ScratchConsole\ScratchConsole\obj\Release\ScratchConsole.exe
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Demo\ScratchConsole\ScratchConsole\obj\Release\ScratchConsole.pdb

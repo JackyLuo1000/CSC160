@@ -1,0 +1,12 @@
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Demo\StructDemo_A\StructDemo_A\bin\Debug\StructDemo_A.exe.config
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Demo\StructDemo_A\StructDemo_A\bin\Debug\StructDemo_A.exe
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Demo\StructDemo_A\StructDemo_A\bin\Debug\StructDemo_A.pdb
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Demo\StructDemo_A\StructDemo_A\obj\Debug\StructDemo_A.csprojAssemblyReference.cache
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Demo\StructDemo_A\StructDemo_A\obj\Debug\StructDemo_A.csproj.CoreCompileInputs.cache
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Demo\StructDemo_A\StructDemo_A\obj\Debug\StructDemo_A.exe
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Demo\StructDemo_A\StructDemo_A\obj\Debug\StructDemo_A.pdb
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Demo\StructDemo_A\StructDemo_A\bin\Debug\ExtensionMethods.dll
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Demo\StructDemo_A\StructDemo_A\bin\Debug\ExtensionMethods.pdb
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Demo\StructDemo_A\StructDemo_A\bin\Debug\ExtensionMethods.xml
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Demo\StructDemo_A\StructDemo_A\bin\Debug\ExtensionMethods.dll.config
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Demo\StructDemo_A\StructDemo_A\obj\Debug\StructDemo_A.csproj.CopyComplete
