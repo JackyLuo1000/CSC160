@@ -32,6 +32,10 @@ namespace ExtMethods
         public static bool IsPrime(this int num)
         {
             bool isPrime = false;
+            if(num < 0)
+            {
+                num *= -1;
+            }
             if (num <= 1)
             {
                 isPrime = false;
@@ -68,13 +72,21 @@ namespace ExtMethods
         public static void Print(this IEnumerable collect)
         {
             StringBuilder result = new StringBuilder();
-            IEnumerator cycle =  collect.GetEnumerator();
-            while (cycle.MoveNext())
+            if(collect != null && collect.GetEnumerator().MoveNext())
             {
-                result.Append($"{cycle.Current}, ");
+                foreach(var field in collect)
+                {
+                    if(field != null)
+                    {
+                        result.Append($"{field}, ");
+                    }
+                }
+                if (result.Length > 2)
+                {
+                    result.Length -= 2;
+                }
             }
-            result.Length -= 2;
-            Console.WriteLine(result.ToString());
+            Console.Write(result.ToString().Trim());
         }
 
         /// <summary>

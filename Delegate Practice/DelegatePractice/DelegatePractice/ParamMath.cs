@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace DelegatePractice
 {
     public delegate void MathDelegate(params int[] nums);
-
     
     public static class ParamMath
     {

@@ -39,7 +39,7 @@ namespace MovieLINQs
         
         static void Main(string[] args)
         {
-            Query12();
+            Query4();
         }
         
         //What are the years of the oldest and newest movies in the list?
@@ -59,8 +59,8 @@ namespace MovieLINQs
             var newestMovie = movies.Aggregate((m1, m2) => m1.Year > m2.Year ? m1 : m2);
             var oldestMovie = movies.Aggregate((m1, m2) => m1.Year < m2.Year ? m1 : m2);
             int middleYear = ((newestMovie.Year - oldestMovie.Year) / 2) + oldestMovie.Year;
-            var newMovies = movies.Where(movie => movie.Year >= middleYear);
-            var classicMovies = movies.Where(movie => movie.Year < middleYear);
+            var newMovies = movies.Where(movie => movie.Year > middleYear);
+            var classicMovies = movies.Where(movie => movie.Year <= middleYear);
             Console.WriteLine($"There are {newMovies.Count()} new movies in this collection.");
             Console.WriteLine($"There are {classicMovies.Count()} classic movies in this collection.");
         }
@@ -89,14 +89,18 @@ namespace MovieLINQs
 
         public static void Query4()
         {
-            //var releaseYears = from movie in movies
-            //                   group movie by movie.Year into yearGroup
-            //                   select yearGroup;
             var releaseYears = movies.GroupBy(movie => movie.Year);
+            var bestReleases = releaseYears.OrderBy(years => years.Count());
             var bestRelease = releaseYears.Aggregate((g1, g2) => g1.Count() > g2.Count() ? g1 : g2);
-            Console.WriteLine($"{bestRelease.Key} had the most releases in this collection.");
-            Console.WriteLine($"{bestRelease.Count()} movies were released in {bestRelease.Key} in this collection.");
-            Console.WriteLine($"{bestRelease.Key} with {bestRelease.Count()}");
+            int numOfMovies = bestRelease.Count();
+            foreach(var release in bestReleases)
+            {
+                if(release.Count() >= numOfMovies)
+                {
+                    numOfMovies = release.Count();
+                    Console.WriteLine($"{release.Key} has {release.Count()} movies.");
+                }
+            }
         }
 
         //Which rating shows up the most? What is the quantity?

@@ -11,7 +11,7 @@ namespace ExtensionTester
     {
         static void Main(string[] args)
         {
-            TestPrime();
+            TestPrint();
         }
 
         static void TestEven()
@@ -108,7 +108,7 @@ namespace ExtensionTester
             {
                 Console.WriteLine($"{test} is not prime");
             }
-            Console.WriteLine("Expected false: not prime");
+            Console.WriteLine("Expected true: prime");
             Console.WriteLine();
             //Test for not prime with -9
             test = -9;
@@ -129,15 +129,32 @@ namespace ExtensionTester
         {
             //Test print array of phrases
             string[] phrases = { "Alfa", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot, Hotel" };
-            Console.Write("Result: ");
+            Console.Write("Result: <");
             phrases.Print();
-            Console.WriteLine($"Expected: {phrases[0]}, {phrases[1]}, {phrases[2]}, {phrases[3]}, {phrases[4]}, {phrases[5]}");
+            Console.WriteLine(">");
+            Console.WriteLine($"Expected: <{phrases[0]}, {phrases[1]}, {phrases[2]}, {phrases[3]}, {phrases[4]}, {phrases[5]}>");
             Console.WriteLine();
             //Test print array of ints
             int[] nums = { 5, 50, 25, 6, 9 };
-            Console.Write("Result: ");
+            Console.Write("Result: <");
             nums.Print();
-            Console.WriteLine($"Expected: {nums[0]}, {nums[1]}, {nums[2]}, {nums[3]}, {nums[4]}");
+            Console.WriteLine(">");
+            Console.WriteLine($"Expected: <{nums[0]}, {nums[1]}, {nums[2]}, {nums[3]}, {nums[4]}>");
+            Console.WriteLine();
+            //Test empty value
+            string[] empty = new string[2];
+            Console.Write($"Result: <");
+            empty.Print();
+            Console.WriteLine(">");
+            Console.WriteLine($"Expected: <>");
+            Console.WriteLine();
+            //Test one value
+            int[] one = { 1 };
+            Console.Write($"Result: <");
+            one.Print();
+            Console.WriteLine(">");
+            Console.WriteLine($"Expected: <1>");
+            Console.WriteLine();
         }
 
         static void TestToPower()
