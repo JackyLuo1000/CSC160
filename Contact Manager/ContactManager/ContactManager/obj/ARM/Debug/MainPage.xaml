@@ -1,0 +1,71 @@
+﻿<Page
+    x:Class="ContactManager.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ContactManager"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Viewbox>
+        <Grid Height="400" Width="600">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+            <ScrollViewer Grid.Column="0" Background="White" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" BorderBrush="Black" BorderThickness="1" Margin="10" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+                <RelativePanel  Grid.Column="0" Background="White" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0">
+                    <TextBlock x:ConnectionId='3' x:Name="NameID" Text="First Name" Margin="5, 0, 0, 0"/>
+                    <TextBox x:ConnectionId='4' RelativePanel.Below="NameID" x:Name="FirstNameField" Margin="5, 0" MinWidth="100" PlaceholderText="First Name" />
+
+                    <TextBlock x:ConnectionId='5' x:Name="LNameID" RelativePanel.Below="FirstNameField" Text="Last Name" Margin="5, 0, 0, 0"/>
+                    <TextBox x:ConnectionId='6' x:Name="LastNameField" RelativePanel.Below="LNameID"  Margin="5, 0" MinWidth="100" PlaceholderText="Last Name"/>
+
+                    <Button x:ConnectionId='7' x:Name="AddPhoneButton" RelativePanel.Below="LastNameField" BorderBrush="Black" BorderThickness="1" Content="+" Margin="5,0,0,0" Padding="0" Height="20" Width="20"                         />
+                    <TextBlock x:ConnectionId='8' x:Name="PhoneID" RelativePanel.Below="LastNameField" RelativePanel.RightOf="AddPhoneButton" Text="Phone Numbers" Margin="5, 0, 0, 0"/>
+                    <StackPanel x:ConnectionId='9' x:Name="PhoneFielding" Orientation="Vertical" RelativePanel.Below="PhoneID">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBox x:ConnectionId='24' x:Name="PhoneNumberField" Margin="5, 0" MinWidth="100" PlaceholderText="123-456-7890"/>
+                            <ComboBox x:ConnectionId='25' x:Name="PhoneTypeField"  Margin="5, 0, 0, 0" MinWidth="100" PlaceholderText="Type"/>
+
+                        </StackPanel>
+                        <StackPanel x:ConnectionId='23' x:Name="PhoneDisplay"></StackPanel>
+                    </StackPanel>
+
+
+                    <Button x:ConnectionId='10' x:Name="AddEmail" RelativePanel.Below="PhoneFielding" BorderBrush="Black" BorderThickness="1" Content="+" Margin="5,0,0,0" Padding="0" Height="20" Width="20"                         />
+                    <TextBlock x:ConnectionId='11' x:Name="EmailID" RelativePanel.Below="PhoneFielding" RelativePanel.RightOf="AddEmail" Text="Emails" Margin="5, 0, 0, 0"/>
+
+                    <StackPanel x:ConnectionId='12' x:Name="EmailFielding" Orientation="Vertical" RelativePanel.Below="EmailID">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBox x:ConnectionId='21' x:Name="EmailField" Margin="5, 0" MinWidth="100" PlaceholderText="Email"/>
+                            <ComboBox x:ConnectionId='22' x:Name="EmailTypeField" RelativePanel.RightOf="EmailField" Margin="5, 0, 0, 0" MinWidth="100" PlaceholderText="Type"/>
+
+                        </StackPanel>
+                        <StackPanel x:ConnectionId='20' x:Name="EmailDisplay"></StackPanel>
+                    </StackPanel>
+
+                    <TextBlock x:ConnectionId='13' x:Name="GroupID" RelativePanel.Below="EmailFielding" Text="Group" Margin="5, 0, 0, 0"/>
+                    <ComboBox x:ConnectionId='14' x:Name="GroupField" RelativePanel.Below="GroupID" Margin="5, 0, 0, 0" MinWidth="100" PlaceholderText="Group"/>
+
+                    <Button x:ConnectionId='15' x:Name="SaveContact" Content="Save Contact" RelativePanel.Below="GroupField" Margin="5,5,0,0"                          />
+                    <Button x:ConnectionId='16' x:Name="DeleteContact" Content="Delete Contact" RelativePanel.Below="GroupField" RelativePanel.RightOf="SaveContact" Margin="5,5,0,0"                            />
+                    <Button x:ConnectionId='17' x:Name="SaveAsButton" Content="Save As" RelativePanel.Below="SaveContact" Margin="5, 5, 0, 0"                           />
+                    <Button x:ConnectionId='18' x:Name="SaveButton" Content="Save" RelativePanel.Below="SaveContact" RelativePanel.RightOf="SaveAsButton" Margin="5, 5, 0, 0"                         />
+                    <Button x:ConnectionId='19' x:Name="OpenButton" Content="Open" RelativePanel.Below="SaveContact" RelativePanel.RightOf="SaveButton" Margin="5, 5, 0, 0"                         />
+
+                </RelativePanel>
+            </ScrollViewer>
+            <ListBox x:ConnectionId='2' x:Name="ContactDisplay" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" BorderBrush="Black" BorderThickness="1" Margin="10" SelectionMode="Single"                                                    >
+                
+                
+            </ListBox>
+        </Grid>
+
+    </Viewbox>
+</Page>
+

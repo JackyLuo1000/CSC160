@@ -8,23 +8,44 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <RelativePanel BorderBrush="Gray" BorderThickness="10" >
-        <Rectangle x:Name="RedRect" Fill="Red" MinHeight="100" MinWidth="100"/>
-        <Rectangle x:Name="BlueRect" Fill="Blue" MinHeight="100" MinWidth="100" 
-               RelativePanel.RightOf="RedRect"/>
-        <!-- Width is not set on the green and yellow rectangles.
-         It's determined by the RelativePanel properties. -->
-        <Rectangle x:Name="GreenRect" Fill="Green" MinHeight="100" Margin="0,5,0,0" 
-               RelativePanel.Below="RedRect" 
-               RelativePanel.AlignLeftWith="RedRect" 
-               RelativePanel.AlignRightWith="BlueRect"/>
-        <Rectangle Name="YellowRect" Fill="Yellow" MinHeight="100" 
-               RelativePanel.Below="GreenRect" 
-               RelativePanel.AlignLeftWith="BlueRect" 
-               RelativePanel.AlignRightWithPanel="True"/>
-        <Ellipse Name="BlueEllip" Fill="Blue" MinHeight="100"
-                 RelativePanel.Below="GreenRect"
-                 RelativePanel.AlignLeftWithPanel="True"
-                 RelativePanel.LeftOf="YellowRect"/>
-    </RelativePanel>
+    <Viewbox Stretch="Fill">
+        <StackPanel Background="White" Height="Auto" Width="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Grid Name="Play" Width="300" Height="300" Margin="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+
+            </Grid>
+            <Grid Name="Control">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <TextBlock HorizontalAlignment="Center" Grid.Column="0" Text="Height: " VerticalAlignment="Center" Margin="5, 0, 10, 0" />
+                <TextBox HorizontalAlignment="Center" Grid.Column="1" Text="10"  Name="HeightNum" BorderThickness="2" BorderBrush="Black"/>
+                
+                <TextBlock HorizontalAlignment="Center" Grid.Column="2" Text="Width: " VerticalAlignment="Center" Margin="5, 0, 10, 0"/>
+                <TextBox HorizontalAlignment="Center" Grid.Column="3" Text="10"  Name="WidthNum" BorderThickness="2" BorderBrush="Black"/>
+                
+                <Button Name="CreateGrid" HorizontalAlignment="Center" Grid.Column="4" Content="Create" Background="LightGray" BorderThickness="2" BorderBrush="Black" Click="Create_Grid"/>
+                
+                <Button Name="PlayOneButton" HorizontalAlignment="Center" Grid.Column="5" Content="Skip 1" Background="LightGray" BorderThickness="2" BorderBrush="Black" Click="Play_One" IsEnabled="False"/>
+                
+                <TextBlock HorizontalAlignment="Center" Grid.Column="6" Text="Gen Per Seconds: " VerticalAlignment="Center" Margin="5, 0, 10, 0"/>
+                <TextBox HorizontalAlignment="Center" Grid.Column="7" Text="1"  Name="PlayNum" BorderThickness="2" BorderBrush="Black"/>
+                
+                <Button Name="PlayButton" HorizontalAlignment="Center" Grid.Column="8" Content="Play" Background="LightGray" BorderThickness="2" BorderBrush="Black" Tapped="Play_Cycle" IsEnabled="False"/>
+                
+                <Button Name="RandomizeGrid" HorizontalAlignment="Center" Grid.Column="9" Content="Random" Background="LightGray" BorderThickness="2" BorderBrush="Black" Click="Randomize"/>
+            </Grid>
+        </StackPanel>
+    </Viewbox>
 </Page>

@@ -42,10 +42,10 @@ namespace UWPEventDemo_A
             await (new MessageDialog("You Tapped")).ShowAsync();
         }
 
-        //private async void Button_Click(object sender, RoutedEventArgs e)
-        //{
-        //    isOn = !isOn;
-        //    LightbulbRect.Fill = isOn ? on : off;
-        //}
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            isOn = !isOn;
+            LightbulbRect.Fill = isOn ? on : off;
+        }
     }
 }

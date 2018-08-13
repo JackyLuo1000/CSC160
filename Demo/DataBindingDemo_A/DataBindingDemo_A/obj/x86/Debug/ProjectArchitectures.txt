@@ -1,0 +1,1 @@
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Demo\DataBindingDemo_A\DataBindingDemo_A\DataBindingDemo_A.csproj;x86

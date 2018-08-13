@@ -8,19 +8,16 @@
     mc:Ignorable="d"
     Background="White">
 
-    <Grid>
-        <Canvas Background="Transparent" Tapped="Canvas_Tapped">
-            
-        </Canvas>
-    </Grid>
+    
 
-    <!--<Viewbox>
+    <Viewbox>
         <StackPanel Width="300" Height="200" Background="Aqua">
             <Rectangle Width="150"
                        Height="75"
                        Margin="20"
                        Fill="Black"
-                       Name="LightbulbRect">
+                       Name="LightbulbRect"
+                       >
                 
             </Rectangle>
             <Button Content="Click Me"
@@ -29,5 +26,5 @@
                 Background="LightGray" 
                 Click="Button_Click"/>
         </StackPanel>
-    </Viewbox>-->
+    </Viewbox>
 </Page>
