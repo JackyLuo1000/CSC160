@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 %28C# &amp; .NET%29\Contact Manager\ContactManager\ContactManager\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-08-13T21:32:41.794</Modified>
+      <Modified>2018-08-14T03:43:47.450</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 %28C# &amp; .NET%29\Contact Manager\ContactManager\ContactManager\bin\x64\Debug\ContactManager.exe">
       <PackagePath>entrypoint\ContactManager.exe</PackagePath>
-      <Modified>2018-08-13T21:32:29.844</Modified>
+      <Modified>2018-08-14T03:43:41.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sagebrecht\.nuget\packages\protobuf-net\2.3.17\lib\uap10.0\protobuf-net.dll">
       <PackagePath>protobuf-net.dll</PackagePath>
@@ -743,11 +743,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 %28C# &amp; .NET%29\Contact Manager\ContactManager\ContactManager\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-08-13T21:32:29.205</Modified>
+      <Modified>2018-08-14T03:43:40.777</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 %28C# &amp; .NET%29\Contact Manager\ContactManager\ContactManager\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-08-13T21:32:29.211</Modified>
+      <Modified>2018-08-14T03:43:40.780</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -756,11 +756,11 @@
     <AppxPackagedFile Include="C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 %28C# &amp; .NET%29\Contact Manager\ContactManager\ContactManager\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-08-13T21:32:38.782</Modified>
+      <Modified>2018-08-14T03:43:46.277</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 %28C# &amp; .NET%29\Contact Manager\ContactManager\ContactManager\bin\x64\Debug\Core\ContactManager.exe">
       <PackagePath>ContactManager.exe</PackagePath>
-      <Modified>2018-08-13T21:32:41.759</Modified>
+      <Modified>2018-08-14T03:43:47.430</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

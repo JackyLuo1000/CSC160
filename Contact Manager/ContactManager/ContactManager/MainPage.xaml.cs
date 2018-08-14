@@ -310,9 +310,9 @@ namespace ContactManager
             }
         }
 
-        private void DeleteContact_Click(object sender, RoutedEventArgs e)
+        private async void DeleteContact_Click(object sender, RoutedEventArgs e)
         {
-            if (ContactDisplay.Items.Count != 0 || ContactDisplay.SelectedIndex < 0)
+            if (ContactDisplay.Items.Count != 0 && ContactDisplay.SelectedIndex > 0)
             {
                 contacts.RemoveAt(ContactDisplay.SelectedIndex);
                 ContactDisplay.Items.RemoveAt(ContactDisplay.SelectedIndex);
@@ -324,6 +324,11 @@ namespace ContactManager
                 PhoneDisplay.Children.Clear();
                 EmailDisplay.Children.Clear();
                 selectedIndex = ContactDisplay.Items.Count + 1;
+            }
+            else
+            {
+                await (new MessageDialog("Please select a contact to delete.")).ShowAsync();
+
             }
         }
 
