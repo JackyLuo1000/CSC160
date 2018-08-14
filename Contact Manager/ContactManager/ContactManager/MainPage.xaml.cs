@@ -3,6 +3,7 @@ using ContactManager.Model;
 using ProtoBuf;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -31,13 +32,21 @@ namespace ContactManager
     public sealed partial class MainPage : Page
     {
         private Contact contact = new Contact();
-        private List<Contact> contacts = new List<Contact>();
+        private ObservableCollection<Contact> contacts = new ObservableCollection<Contact>()
+        {
+            new Contact(){FirstName= "Jacky", LastName="Luo", ContactGroup = "Family", Emails = new List<Email>(), PhoneNumbers = new List<PhoneNumber>()},
+            new Contact(){FirstName= "Jacky", LastName="Luo", ContactGroup = "Family", Emails = new List<Email>(), PhoneNumbers = new List<PhoneNumber>()},
+            new Contact(){FirstName= "Jacky", LastName="Luo", ContactGroup = "Family", Emails = new List<Email>(), PhoneNumbers = new List<PhoneNumber>()}
+
+        };
+
         private int selectedIndex = 1;
         private string mruToken;
         public MainPage()
         {
             this.InitializeComponent();
             selectedIndex = contacts.Count + 1;
+            ContactDisplay.ItemsSource = contacts;
         }
 
         private async void AddEmail_Tapped(object sender, TappedRoutedEventArgs e)
@@ -129,7 +138,7 @@ namespace ContactManager
                 if (selectedIndex > ContactDisplay.Items.Count)
                 {
                     contacts.Add(contact);
-                    ContactDisplay.Items.Add(contacts.Last().ToString());
+                    //ContactDisplay.Items.Add(contacts.Last().ToString());
                 }
                 else
                 {
@@ -273,18 +282,23 @@ namespace ContactManager
             {
                 using (Stream fs = await file.OpenStreamForReadAsync())
                 {
-                    contacts = Serializer.Deserialize<List<Contact>>(fs);
-                    ContactDisplay.Items.Clear();
+                    contacts.Clear();
+                    foreach(Contact conta in Serializer.Deserialize<ObservableCollection<Contact>>(fs))
+                    {
+                        contacts.Add(conta);
+                    }
+                    //contacts = Serializer.Deserialize<ObservableCollection<Contact>>(fs);
+                    //ContactDisplay.Items.Clear();
                     FirstNameField.Text = "";
                     LastNameField.Text = "";
                     PhoneNumberField.Text = "";
                     EmailField.Text = "";
                     PhoneDisplay.Children.Clear();
                     EmailDisplay.Children.Clear();
-                    foreach (Contact c in contacts)
-                    {
-                        ContactDisplay.Items.Add(c.ToString());
-                    }
+                    //foreach (Contact c in contacts)
+                    //{
+                    //    ContactDisplay.Items.Add(c.ToString());
+                    //}
                     var mru = Windows.Storage.AccessCache.StorageApplicationPermissions.MostRecentlyUsedList;
                     mruToken = mru.Add(file, "contacts");
                     selectedIndex = ContactDisplay.Items.Count + 1;
@@ -297,7 +311,7 @@ namespace ContactManager
             if (ContactDisplay.Items.Count != 0 && ContactDisplay.SelectedIndex > 0)
             {
                 contacts.RemoveAt(ContactDisplay.SelectedIndex);
-                ContactDisplay.Items.RemoveAt(ContactDisplay.SelectedIndex);
+                //ContactDisplay.Items.RemoveAt(ContactDisplay.SelectedIndex);
                 contact = new Contact();
                 FirstNameField.Text = "";
                 LastNameField.Text = "";

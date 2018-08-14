@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 %28C# &amp; .NET%29\Contact Manager\ContactManager\ContactManager\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-08-14T16:06:03.301</Modified>
+      <Modified>2018-08-14T16:26:58.071</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 %28C# &amp; .NET%29\Contact Manager\ContactManager\ContactManager\bin\x64\Debug\ContactManager.exe">
       <PackagePath>entrypoint\ContactManager.exe</PackagePath>
-      <Modified>2018-08-14T16:06:02.097</Modified>
+      <Modified>2018-08-14T16:26:56.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sagebrecht\.nuget\packages\protobuf-net\2.3.17\lib\uap10.0\protobuf-net.dll">
       <PackagePath>protobuf-net.dll</PackagePath>
@@ -739,15 +739,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 %28C# &amp; .NET%29\Contact Manager\ContactManager\ContactManager\bin\x64\Debug\ContactManager.xr.xml">
       <PackagePath>ContactManager.xr.xml</PackagePath>
-      <Modified>2018-08-14T16:06:01.472</Modified>
+      <Modified>2018-08-14T16:19:44.363</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 %28C# &amp; .NET%29\Contact Manager\ContactManager\ContactManager\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-08-14T16:06:01.525</Modified>
+      <Modified>2018-08-14T16:26:56.292</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 %28C# &amp; .NET%29\Contact Manager\ContactManager\ContactManager\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-08-14T16:06:01.526</Modified>
+      <Modified>2018-08-14T16:26:56.295</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -760,7 +760,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 %28C# &amp; .NET%29\Contact Manager\ContactManager\ContactManager\bin\x64\Debug\Core\ContactManager.exe">
       <PackagePath>ContactManager.exe</PackagePath>
-      <Modified>2018-08-14T16:06:03.288</Modified>
+      <Modified>2018-08-14T16:26:58.058</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
