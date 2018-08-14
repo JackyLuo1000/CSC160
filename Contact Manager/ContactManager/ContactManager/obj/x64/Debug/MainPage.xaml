@@ -30,8 +30,13 @@
                     <StackPanel x:ConnectionId='9' x:Name="PhoneFielding" Orientation="Vertical" RelativePanel.Below="PhoneID">
                         <StackPanel Orientation="Horizontal">
                             <TextBox x:ConnectionId='24' x:Name="PhoneNumberField" Margin="5, 0" MinWidth="100" PlaceholderText="123-456-7890"/>
-                            <ComboBox x:ConnectionId='25' x:Name="PhoneTypeField"  Margin="5, 0, 0, 0" MinWidth="100" PlaceholderText="Type"/>
-                            
+                            <ComboBox x:ConnectionId='25' x:Name="PhoneTypeField"  Margin="5, 0, 0, 0" MinWidth="100" PlaceholderText="Type">
+                                <x:String>Work</x:String>
+                                <x:String>Home</x:String>
+                                <x:String>Cell</x:String>
+
+                            </ComboBox>
+
                         </StackPanel>
                         <StackPanel x:ConnectionId='23' x:Name="PhoneDisplay"></StackPanel>
                     </StackPanel>
@@ -43,8 +48,11 @@
                     <StackPanel x:ConnectionId='12' x:Name="EmailFielding" Orientation="Vertical" RelativePanel.Below="EmailID">
                         <StackPanel Orientation="Horizontal">
                             <TextBox x:ConnectionId='21' x:Name="EmailField" Margin="5, 0" MinWidth="100" PlaceholderText="Email"/>
-                            <ComboBox x:ConnectionId='22' x:Name="EmailTypeField" RelativePanel.RightOf="EmailField" Margin="5, 0, 0, 0" MinWidth="100" PlaceholderText="Type"/>
-                            
+                            <ComboBox x:ConnectionId='22' x:Name="EmailTypeField" RelativePanel.RightOf="EmailField" Margin="5, 0, 0, 0" MinWidth="100" PlaceholderText="Type">
+                                <x:String>Work</x:String>
+                                <x:String>Personal</x:String>
+                            </ComboBox>
+
                         </StackPanel>
                         <StackPanel x:ConnectionId='20' x:Name="EmailDisplay">
 
@@ -52,7 +60,12 @@
                     </StackPanel>
 
                     <TextBlock x:ConnectionId='13' x:Name="GroupID" RelativePanel.Below="EmailFielding" Text="Group" Margin="5, 0, 0, 0"/>
-                    <ComboBox x:ConnectionId='14' x:Name="GroupField" RelativePanel.Below="GroupID" Margin="5, 0, 0, 0" MinWidth="100" PlaceholderText="Group"/>
+                    <ComboBox x:ConnectionId='14' x:Name="GroupField" RelativePanel.Below="GroupID" Margin="5, 0, 0, 0" MinWidth="100" PlaceholderText="Group">
+                        <x:String>Family</x:String>
+                        <x:String>Friend</x:String>
+                        <x:String>Coworker</x:String>
+
+                    </ComboBox>
 
                     <Button x:ConnectionId='15' x:Name="SaveContact" Content="Save Contact" RelativePanel.Below="GroupField" Margin="5,5,0,0"                          />
                     <Button x:ConnectionId='16' x:Name="DeleteContact" Content="Delete Contact" RelativePanel.Below="GroupField" RelativePanel.RightOf="SaveContact" Margin="5,5,0,0"                            />
@@ -64,7 +77,7 @@
             </ScrollViewer>
             <ScrollViewer Background="White" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" BorderBrush="Black" BorderThickness="1" Margin="10" Padding="0" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
                 <ListBox x:ConnectionId='2' x:Name="ContactDisplay" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0" SelectionMode="Single"                                                    >
-                    
+
                 </ListBox>
             </ScrollViewer>
         </Grid>

@@ -1,0 +1,1 @@
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Demo\ItemsControlDemo\ItemsControlDemo\ItemsControlDemo\ItemsControlDemo.csproj;x86

@@ -38,24 +38,6 @@ namespace ContactManager
         {
             this.InitializeComponent();
             selectedIndex = contacts.Count + 1;
-            String[] phoneTypes = { "Work", "Home", "Cell" };
-            foreach (string s in phoneTypes)
-            {
-                PhoneTypeField.Items.Add(s);
-            }
-            String[] emailTypes = { "Work", "Personal" };
-            foreach (string s in emailTypes)
-            {
-                EmailTypeField.Items.Add(s);
-            }
-            String[] groups = { "Family", "Friend", "Coworker" };
-            foreach (string s in groups)
-            {
-                GroupField.Items.Add(s);
-            }
-            FirstNameField.DataContext = contact;
-            LastNameField.DataContext = contact;
-            GroupField.DataContext = contact;
         }
 
         private async void AddEmail_Tapped(object sender, TappedRoutedEventArgs e)

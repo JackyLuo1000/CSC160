@@ -83,7 +83,9 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="MinWidth" />
       <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="Items" />
     </RootType>
+    <RootType FullName="System.String" />
     <RootType FullName="ContactManager.MainPage" />
   </Roots.RootTypes>
 </Roots>
