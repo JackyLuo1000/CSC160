@@ -32,14 +32,7 @@ namespace ContactManager
     public sealed partial class MainPage : Page
     {
         private Contact contact = new Contact();
-        private ObservableCollection<Contact> contacts = new ObservableCollection<Contact>()
-        {
-            new Contact(){FirstName= "Jacky", LastName="Luo", ContactGroup = "Family", Emails = new List<Email>(), PhoneNumbers = new List<PhoneNumber>()},
-            new Contact(){FirstName= "Jacky", LastName="Luo", ContactGroup = "Family", Emails = new List<Email>(), PhoneNumbers = new List<PhoneNumber>()},
-            new Contact(){FirstName= "Jacky", LastName="Luo", ContactGroup = "Family", Emails = new List<Email>(), PhoneNumbers = new List<PhoneNumber>()}
-
-        };
-
+        private ObservableCollection<Contact> contacts = new ObservableCollection<Contact>();
         private int selectedIndex = 1;
         private string mruToken;
         public MainPage()
@@ -138,19 +131,10 @@ namespace ContactManager
                 if (selectedIndex > ContactDisplay.Items.Count)
                 {
                     contacts.Add(contact);
-                    //ContactDisplay.Items.Add(contacts.Last().ToString());
                 }
                 else
                 {
                     contacts[selectedIndex] = contact;
-                    if (ContactDisplay.Items[selectedIndex].ToString() != contacts[selectedIndex].ToString())
-                    {
-                        ContactDisplay.Items[selectedIndex] = contacts[selectedIndex].ToString();
-                    }
-                    else
-                    {
-                        ContactDisplay.SelectedIndex = -1;
-                    }
                 }
                 contact = new Contact();
                 FirstNameField.Text = "";
@@ -287,18 +271,12 @@ namespace ContactManager
                     {
                         contacts.Add(conta);
                     }
-                    //contacts = Serializer.Deserialize<ObservableCollection<Contact>>(fs);
-                    //ContactDisplay.Items.Clear();
                     FirstNameField.Text = "";
                     LastNameField.Text = "";
                     PhoneNumberField.Text = "";
                     EmailField.Text = "";
                     PhoneDisplay.Children.Clear();
                     EmailDisplay.Children.Clear();
-                    //foreach (Contact c in contacts)
-                    //{
-                    //    ContactDisplay.Items.Add(c.ToString());
-                    //}
                     var mru = Windows.Storage.AccessCache.StorageApplicationPermissions.MostRecentlyUsedList;
                     mruToken = mru.Add(file, "contacts");
                     selectedIndex = ContactDisplay.Items.Count + 1;
@@ -311,7 +289,6 @@ namespace ContactManager
             if (ContactDisplay.Items.Count != 0 && ContactDisplay.SelectedIndex > 0)
             {
                 contacts.RemoveAt(ContactDisplay.SelectedIndex);
-                //ContactDisplay.Items.RemoveAt(ContactDisplay.SelectedIndex);
                 contact = new Contact();
                 FirstNameField.Text = "";
                 LastNameField.Text = "";
