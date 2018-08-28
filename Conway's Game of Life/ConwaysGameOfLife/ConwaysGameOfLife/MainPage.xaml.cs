@@ -236,10 +236,10 @@ namespace ConwaysGameOfLife
                         if (playCells[c + 1, r].IsAlive) { countLiveNeighbours++; };
                         if (playCells[c, r - 1].IsAlive) { countLiveNeighbours++; };
                         if (playCells[c, r + 1].IsAlive) { countLiveNeighbours++; };
-                        if (playCells[c + 1, r + 1].IsAlive && countLiveNeighbours < 4) { countLiveNeighbours++; };
-                        if (playCells[c + 1, r - 1].IsAlive && countLiveNeighbours < 4) { countLiveNeighbours++; };
-                        if (playCells[c - 1, r + 1].IsAlive && countLiveNeighbours < 4) { countLiveNeighbours++; };
-                        if (playCells[c - 1, r - 1].IsAlive && countLiveNeighbours < 4) { countLiveNeighbours++; };
+                        if (playCells[c + 1, r + 1].IsAlive) { countLiveNeighbours++; };
+                        if (playCells[c + 1, r - 1].IsAlive) { countLiveNeighbours++; };
+                        if (playCells[c - 1, r + 1].IsAlive) { countLiveNeighbours++; };
+                        if (playCells[c - 1, r - 1].IsAlive) { countLiveNeighbours++; };
                     }
                     else
                     {
@@ -282,8 +282,8 @@ namespace ConwaysGameOfLife
                             if (playCells[c + 1, r].IsAlive) { countLiveNeighbours++; };
                             if (playCells[c, r + 1].IsAlive) { countLiveNeighbours++; };
                             if (playCells[c + 1, r + 1].IsAlive) { countLiveNeighbours++; };
-                            if (playCells[c, r - 1].IsAlive && countLiveNeighbours < 4) { countLiveNeighbours++; };
-                            if (playCells[c + 1, r - 1].IsAlive && countLiveNeighbours < 4) { countLiveNeighbours++; };
+                            if (playCells[c, r - 1].IsAlive) { countLiveNeighbours++; };
+                            if (playCells[c + 1, r - 1].IsAlive) { countLiveNeighbours++; };
                         }
                         //Check for cells on Right Edge
                         else if (c == columns - 1)
@@ -292,8 +292,8 @@ namespace ConwaysGameOfLife
                             if (playCells[c - 1, r].IsAlive) { countLiveNeighbours++; };
                             if (playCells[c, r - 1].IsAlive) { countLiveNeighbours++; };
                             if (playCells[c - 1, r - 1].IsAlive) { countLiveNeighbours++; };
-                            if (playCells[c, r + 1].IsAlive && countLiveNeighbours < 4) { countLiveNeighbours++; };
-                            if (playCells[c - 1, r + 1].IsAlive && countLiveNeighbours < 4) { countLiveNeighbours++; };
+                            if (playCells[c, r + 1].IsAlive) { countLiveNeighbours++; };
+                            if (playCells[c - 1, r + 1].IsAlive) { countLiveNeighbours++; };
                         }
                         //Check for cells on Top Edge
                         else if (r == 0)
@@ -302,8 +302,8 @@ namespace ConwaysGameOfLife
                             if (playCells[c - 1, r].IsAlive) { countLiveNeighbours++; };
                             if (playCells[c, r + 1].IsAlive) { countLiveNeighbours++; };
                             if (playCells[c - 1, r + 1].IsAlive) { countLiveNeighbours++; };
-                            if (playCells[c + 1, r + 1].IsAlive && countLiveNeighbours < 4) { countLiveNeighbours++; };
-                            if (playCells[c + 1, r].IsAlive && countLiveNeighbours < 4) { countLiveNeighbours++; };
+                            if (playCells[c + 1, r + 1].IsAlive) { countLiveNeighbours++; };
+                            if (playCells[c + 1, r].IsAlive) { countLiveNeighbours++; };
                         }
                         //Check for Cells on Bottom Edge
                         else if (r == rows - 1)
@@ -312,8 +312,8 @@ namespace ConwaysGameOfLife
                             if (playCells[c - 1, r].IsAlive) { countLiveNeighbours++; };
                             if (playCells[c, r - 1].IsAlive) { countLiveNeighbours++; };
                             if (playCells[c - 1, r - 1].IsAlive) { countLiveNeighbours++; };
-                            if (playCells[c + 1, r - 1].IsAlive && countLiveNeighbours < 4) { countLiveNeighbours++; };
-                            if (playCells[c - 1, r - 1].IsAlive && countLiveNeighbours < 4) { countLiveNeighbours++; };
+                            if (playCells[c + 1, r - 1].IsAlive) { countLiveNeighbours++; };
+                            if (playCells[c - 1, r - 1].IsAlive) { countLiveNeighbours++; };
                         }
                     }
                     //Checks if the current cell is Alive
@@ -324,11 +324,11 @@ namespace ConwaysGameOfLife
                         {
                             playCells[c, r].NextState = false;
                         }
-                        //If live neighbors is 2-3, keep alive
-                        //else
-                        //{
-                        //    playCells[c, r].NextState = true;
-                        //}
+                        //If live neighbors is 2 - 3, keep alive
+                        else
+                        {
+                            playCells[c, r].NextState = true;
+                        }
                     }
                     else
                     {
@@ -338,10 +338,10 @@ namespace ConwaysGameOfLife
                             playCells[c, r].NextState = true;
                         }
                         //If live neighbors not 3, keep cell dead
-                        //else
-                        //{
-                        //    playCells[c, r].NextState = false;
-                        //}
+                        else
+                        {
+                            playCells[c, r].NextState = false;
+                        }
                     }
                     //Reset counf for living neighbours
                     countLiveNeighbours = 0;
@@ -505,12 +505,6 @@ namespace ConwaysGameOfLife
                         CreateGrid.IsEnabled = false;
                         RandomizeGrid.IsEnabled = false;
                         PlayOneButton.IsEnabled = false;
-                        //Runs Play_One every times per second till Play Button content is not equal to Stop
-                        //while (cycle.Content.Equals("Stop"))
-                        //{
-                        //    Play_One(sender, e);
-                        //    await Task.Delay(1000 / times);
-                        //}
                         dispatchTimer.Start();
                     }
                     else if (cycle.Content.Equals("Stop"))

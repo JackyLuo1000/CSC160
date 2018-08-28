@@ -277,8 +277,6 @@ C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Contact Manager\Cont
 C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Contact Manager\ContactManager\ContactManager\obj\x64\Debug\FxResources.System.ValueTuple.SR.resw
 C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Contact Manager\ContactManager\ContactManager\obj\x64\Debug\priconfig.xml
 C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Contact Manager\ContactManager\ContactManager\obj\x64\Debug\priconfig.xml.intermediate
-C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Contact Manager\ContactManager\ContactManager\obj\x64\Debug\layout.resfiles
-C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Contact Manager\ContactManager\ContactManager\obj\x64\Debug\layout.resfiles.intermediate
 C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Contact Manager\ContactManager\ContactManager\obj\x64\Debug\resources.resfiles
 C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Contact Manager\ContactManager\ContactManager\obj\x64\Debug\resources.resfiles.intermediate
 C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Contact Manager\ContactManager\ContactManager\obj\x64\Debug\pri.resfiles
@@ -288,3 +286,9 @@ C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Contact Manager\Cont
 C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Contact Manager\ContactManager\ContactManager\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Contact Manager\ContactManager\ContactManager\obj\x64\Debug\protobuf-net.pri.xml
 C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Contact Manager\ContactManager\ContactManager\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Contact Manager\ContactManager\ContactManager\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Contact Manager\ContactManager\ContactManager\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Contact Manager\ContactManager\ContactManager\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Contact Manager\ContactManager\ContactManager\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Contact Manager\ContactManager\ContactManager\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Contact Manager\ContactManager\ContactManager\obj\x64\Debug\excluded.layout.resfiles.intermediate

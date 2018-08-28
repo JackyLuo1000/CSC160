@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 %28C# &amp; .NET%29\Contact Manager\ContactManager\ContactManager\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>8E1176DFDFE3FDD3E233E15A81884A8D2C27553C965A84DDFB9592CCDAF4468F</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>68C639E92E7B83B6D42F5037CDED2D76700C4DF215CEE4612607B4E15A369DBE</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>62d2a6f7-2634-4e77-8771-f272d7626f9a_1.0.0.0_x64__826ra8dvq9jkw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>62d2a6f7-2634-4e77-8771-f272d7626f9a_826ra8dvq9jkw!App</RegisteredUserModeAppID>
     <RegisteredPackageID>62d2a6f7-2634-4e77-8771-f272d7626f9a</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 %28C# &amp; .NET%29\Contact Manager\ContactManager\ContactManager\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-08-14T16:35:20.557</Modified>
+      <Modified>2018-08-23T22:02:40.475</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 %28C# &amp; .NET%29\Contact Manager\ContactManager\ContactManager\bin\x64\Debug\ContactManager.exe">
       <PackagePath>entrypoint\ContactManager.exe</PackagePath>
-      <Modified>2018-08-14T16:35:19.481</Modified>
+      <Modified>2018-08-23T22:02:38.746</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sagebrecht\.nuget\packages\protobuf-net\2.3.17\lib\uap10.0\protobuf-net.dll">
       <PackagePath>protobuf-net.dll</PackagePath>
@@ -743,11 +743,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 %28C# &amp; .NET%29\Contact Manager\ContactManager\ContactManager\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-08-14T16:35:18.892</Modified>
+      <Modified>2018-08-23T22:02:38.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 %28C# &amp; .NET%29\Contact Manager\ContactManager\ContactManager\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-08-14T16:35:18.895</Modified>
+      <Modified>2018-08-23T22:02:38.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -756,11 +756,11 @@
     <AppxPackagedFile Include="C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 %28C# &amp; .NET%29\Contact Manager\ContactManager\ContactManager\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-08-14T16:03:22.556</Modified>
+      <Modified>2018-08-15T23:31:36.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 %28C# &amp; .NET%29\Contact Manager\ContactManager\ContactManager\bin\x64\Debug\Core\ContactManager.exe">
       <PackagePath>ContactManager.exe</PackagePath>
-      <Modified>2018-08-14T16:35:20.532</Modified>
+      <Modified>2018-08-23T22:02:40.449</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
@@ -793,27 +793,27 @@
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.26428.1</Version>
+      <Version>14.0.26726.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26428.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26726.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.26428.1</Version>
+      <Version>14.0.26726.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26428.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26726.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.26428.1</Version>
+      <Version>14.0.26726.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26428.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26726.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>

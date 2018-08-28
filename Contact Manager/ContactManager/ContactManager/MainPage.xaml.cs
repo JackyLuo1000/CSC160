@@ -224,6 +224,8 @@ namespace ContactManager
             {
                 using (Stream fs = await file.OpenStreamForWriteAsync())
                 {
+                    fs.SetLength(0);
+
                     CachedFileManager.DeferUpdates(file);
                     Serializer.Serialize(fs, contacts);
                     var mru = Windows.Storage.AccessCache.StorageApplicationPermissions.MostRecentlyUsedList;
@@ -242,6 +244,7 @@ namespace ContactManager
                 {
                     using (Stream fs = await file.OpenStreamForWriteAsync())
                     {
+                        fs.SetLength(0);
                         CachedFileManager.DeferUpdates(file);
                         Serializer.Serialize(fs, contacts);
                     }

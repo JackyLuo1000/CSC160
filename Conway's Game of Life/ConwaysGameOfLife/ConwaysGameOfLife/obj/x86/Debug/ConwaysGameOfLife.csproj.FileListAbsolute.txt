@@ -275,8 +275,6 @@ C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Conway's Game of Lif
 C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Conway's Game of Life\ConwaysGameOfLife\ConwaysGameOfLife\obj\x86\Debug\FxResources.System.ValueTuple.SR.resw
 C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Conway's Game of Life\ConwaysGameOfLife\ConwaysGameOfLife\obj\x86\Debug\priconfig.xml
 C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Conway's Game of Life\ConwaysGameOfLife\ConwaysGameOfLife\obj\x86\Debug\priconfig.xml.intermediate
-C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Conway's Game of Life\ConwaysGameOfLife\ConwaysGameOfLife\obj\x86\Debug\layout.resfiles
-C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Conway's Game of Life\ConwaysGameOfLife\ConwaysGameOfLife\obj\x86\Debug\layout.resfiles.intermediate
 C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Conway's Game of Life\ConwaysGameOfLife\ConwaysGameOfLife\obj\x86\Debug\resources.resfiles
 C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Conway's Game of Life\ConwaysGameOfLife\ConwaysGameOfLife\obj\x86\Debug\resources.resfiles.intermediate
 C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Conway's Game of Life\ConwaysGameOfLife\ConwaysGameOfLife\obj\x86\Debug\pri.resfiles
@@ -286,3 +284,9 @@ C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Conway's Game of Lif
 C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Conway's Game of Life\ConwaysGameOfLife\ConwaysGameOfLife\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Conway's Game of Life\ConwaysGameOfLife\ConwaysGameOfLife\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Conway's Game of Life\ConwaysGameOfLife\ConwaysGameOfLife\obj\x86\Debug\ConwaysGameOfLife.csprojAssemblyReference.cache
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Conway's Game of Life\ConwaysGameOfLife\ConwaysGameOfLife\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Conway's Game of Life\ConwaysGameOfLife\ConwaysGameOfLife\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Conway's Game of Life\ConwaysGameOfLife\ConwaysGameOfLife\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Conway's Game of Life\ConwaysGameOfLife\ConwaysGameOfLife\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Conway's Game of Life\ConwaysGameOfLife\ConwaysGameOfLife\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\Sagebrecht\Google Drive\Neumont\CSC160 (C# & .NET)\Conway's Game of Life\ConwaysGameOfLife\ConwaysGameOfLife\obj\x86\Debug\excluded.layout.resfiles.intermediate
